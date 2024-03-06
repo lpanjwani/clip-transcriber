@@ -4,13 +4,31 @@
 
 Clip transcriber that that converts audio or video clips into written text. It is commonly used for tasks such as transcribing interviews, lectures, or recordings.
 
-## Installation
+## Package Manager
 
-This project uses pip for package management. To install the dependencies, run the following command:
+This project uses pip for package management.
+
+## Dependencies
+
+To run this project, you will need to install the following dependencies:
+
+- transformers
+- torch
+- datasets
+- accelerate
+- librosa
+- pytube
+- moviepy
+- pyannote.audio
+- speechbox==0.2.1
+- jupyter
+
+You can install these dependencies by running the following command:
 
 ```bash
 pip install -r requirements.txt
 ```
+
 
 ## Usage
 
