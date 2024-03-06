@@ -1,0 +1,9 @@
+transformers
+torch
+datasets
+accelerate
+librosa
+pytube
+moviepy
+pyannote.audio
+speechbox==0.2.1
